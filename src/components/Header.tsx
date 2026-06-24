@@ -13,7 +13,7 @@ export default function Header() {
 
           {/* 右侧：Logo */}
           <img
-            src="/tutu-logo.png"
+            src={import.meta.env.BASE_URL + 'tutu-logo.png'}
             alt="途途课堂"
             className="h-auto object-contain opacity-90 flex-shrink-0"
             style={{ maxWidth: '36%' }}
